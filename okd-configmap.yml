@@ -28,6 +28,6 @@ data:
   SERVICE_BASE_URL: http://192.168.5.69:8090
   STORAGE: filesystem
   OS_IMAGES: '[{"openshift_version":"4.20","cpu_architecture":"x86_64","url":"https://mirror.openshift.com/pub/openshift-v4/dependencies/rhcos/pre-release/4.20.0-ec.5/rhcos-4.20.0-ec.5-x86_64-live-iso.x86_64.iso","version":"10.0.20250628-0"}]'
-  RELEASE_IMAGES: '[{"openshift_version":"4.20","cpu_architecture":"x86_64","cpu_architectures":["x86_64"],"url":"quay.io/okd/scos-release:4.20.0-okd-scos.ec.10","version":"4.20.0-okd-scos.ec.10","default":true,"support_level":"beta"}]'
+  RELEASE_IMAGES: '[{"openshift_version":"4.20","cpu_architecture":"x86_64","cpu_architectures":["x86_64"],"url":"quay.io/okd/scos-release:4.20.0-okd-scos.ec.12","version":"4.20.0-okd-scos.ec.12","default":true,"support_level":"production"}]'
   ENABLE_UPGRADE_AGENT: "false"
   ENABLE_OKD_SUPPORT: "true"
