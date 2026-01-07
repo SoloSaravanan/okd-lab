@@ -10,4 +10,4 @@ HTTP based
 podman play kube --configmap okd-configmap.yml pod.yml
 ```
 
-The UI will available at: http://<host-ip-address>:8080
+**The UI will available at: http://*host-ip-address*:8080**
